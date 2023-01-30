@@ -4,16 +4,12 @@ export const contacts = {
       contact: "+261 34 43 230 24 | nasandratra.acccess4@gmail.com",
       social: [
           {
-              icon: "./assets/socials/twitter.png",
-              link: "#twitter"
-          },
-          {
               icon: "./assets/socials/linkedin.png",
-              link: "#linkedin"
+              link: "https://mg.linkedin.com/in/nasandratra-harivonjy/"
           },
           {
               icon: "./assets/socials/github.png",
-              link: "#github"
+              link: "https://github.com/Nas-hash-source"
           }
       ]
 }

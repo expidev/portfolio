@@ -1,28 +1,38 @@
 export const projects = [
   {
     title: "Job Finder App",
-    description: "It is a basic job finder website which enables the users to find a job, and to create a resume",
-    link: ''
+    description: "WDD330 / in progress / first step in MERN Stack. It's a basic website that allows the users to create and read a job application. ",
+    link: 'https://eclectic-cucurucho-5684dc.netlify.app/'
   },
   {
     title: "Book Creator App",
-    description: "A basic e-learning website that let users create and read a book",
-    link: ''
+    description: "WDD330 / Vanilla JS. A basic e-learning website that let users create and read a book",
+    link: 'https://nas-hash-source.github.io/wdd330/challenge-project/'
   },
   {
-    title: "Fictional Chamber of Commerce website",
-    description: "Four ToDo Apps created respectively in JavaScript, React, Angular and Vue",
-    link: ''
+    title: "Chamber of Commerce website (fictional)",
+    description: "WDD230",
+    link: 'https://nas-hash-source.github.io/wdd230/chamber/'
   },
   {
     title: "Inn && Suites Website",
-    description: "Four ToDo Apps created respectively in JavaScript, React, Angular and Vue",
-    link: ''
+    description: "WDD230",
+    link: 'https://nas-hash-source.github.io/wdd230/templesite/'
   },
   {
     title: "ToDo App",
-    description: "Four ToDo Apps created respectively in JavaScript, React, Angular and Vue",
-    link: ''
+    description: "WDD330, discovering React principles",
+    link: 'https://jocular-clafoutis-3e1f2b.netlify.app/'
+  },
+  {
+    title: "ToDo App",
+    description: "WDD330, discovering Angular principles",
+    link: 'https://chimerical-bublanina-598b27.netlify.app/'
+  },
+  {
+    title: "ToDo App",
+    description: "WDD330, discovering Vue principles",
+    link: 'https://bucolic-lamington-47f88b.netlify.app/'
   },
   
 ];

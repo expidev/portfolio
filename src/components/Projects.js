@@ -12,7 +12,7 @@ export const Projects = () => {
             <div className={styles.info}>
               <h2 className={styles.title}>{project.title}</h2>
               <p className={styles.description}>{project.description}</p>
-              <p className={styles.description}><a href={project.Link}>{project.link}</a></p>
+              <p className={styles.description}><a href={project.link}  rel="noopener noreferrer" target="_blank">{project.link}</a></p>
             </div>
           </div>
         );

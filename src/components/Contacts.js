@@ -11,9 +11,9 @@ export const Contacts = () => {
       <p>{contacts.contact}</p>
       <div className={styles.socials}>
         {
-          contacts.social.map((item) => {
+          contacts.social.map((item, index) => {
             return (
-            <a href={item.link}>
+            <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
               <img
               src={item.icon}
               alt="social-icon"
