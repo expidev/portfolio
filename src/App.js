@@ -1,8 +1,6 @@
 import React from "react";
 import { Header } from "./components/Header.js";
 import { HeroArea } from "./components/HeroArea.js";
-import { About } from "./components/About.js";
-import { Services } from "./components/Services.js";
 import { Projects } from "./components/Projects.js";
 import { Contacts } from "./components/Contacts.js";
 
@@ -12,27 +10,17 @@ export default function App() {
   return (
     <div className="App">
       <Header />
+      <hr />
       <HeroArea />
-      <h1 id="about" className="title">
-        About me
+      <h1 id="projets" className="title">
+        Mes projets
       </h1>
-      <p className="description">My experience and education</p>
-      <About />
-
-      <h1 id="services" className="title">
-        My services
-      </h1>
-      <p className="description">How can I help you?</p>
-      <Services />
-      <h1 id="projects" className="title">
-        Projects
-      </h1>
-      <p className="description">Highlights of my best work</p>
+      <p className="description">Projets d'études et personnels</p>
       <Projects />
       <h1 id="contact" className="title">
-        Let's connect
+        Contact
       </h1>
-      <p className="description">I'm available to work!</p>
+      <p className="description">Ouvert à vos propositions</p>
       <Contacts />
     </div>
   );

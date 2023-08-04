@@ -10,9 +10,14 @@ export const Projects = () => {
         return (
           <div className={styles.card} key={index}>
             <div className={styles.info}>
-              <h2 className={styles.title}>{project.title}</h2>
-              <p className={styles.description}>{project.description}</p>
-              <p className={styles.description}><a href={project.link}  rel="noopener noreferrer" target="_blank">{project.link}</a></p>
+              <img className={styles.coverPhoto} src={project.coverPhoto} alt="" />
+              <h2 className={styles.cardTitle}><a href={project.link}  rel="noopener noreferrer" target="_blank">{project.title}</a></h2>
+              <ul>
+                <li>Description:<p className={styles.description}>{project.description}</p></li>
+                <li>Acquis:<p className={styles.description}>{project.acquis}</p></li>
+                <li>Techno:<p className={styles.description}>{project.techno}</p></li>
+              </ul>
+              
             </div>
           </div>
         );

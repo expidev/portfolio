@@ -8,12 +8,14 @@ export const HeroArea = () => {
   return (
     <section className={styles.wrapper}>
       <img className={styles.profile} src={profile.image} alt="profile" />
-      <h1 className="title">{profile.title}</h1>
-      <h2 className="title">
-        Hi! I'm Nas.
-      </h2>
       <p className="description">
         {profile.description}
+      </p>
+      <p className="description">
+        Spécialité en {profile.techno}
+      </p>
+      <p className="description">
+        Flexible en {profile.flex}
       </p>
       <div className={styles.buttonBox}>
         <button
@@ -34,7 +36,7 @@ export const HeroArea = () => {
               .scrollIntoView({ behavior: "smooth" });
           }}
         >
-          Hire me
+          Contact
         </button>
       </div>
     </section>

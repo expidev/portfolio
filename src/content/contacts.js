@@ -5,11 +5,11 @@ export const contacts = {
       social: [
           {
               icon: "./assets/socials/linkedin.png",
-              link: "https://mg.linkedin.com/in/nasandratra-harivonjy/"
+              link: "https://linkedin.com/in/nasandratra-harivonjy/"
           },
           {
               icon: "./assets/socials/github.png",
-              link: "https://github.com/Nas-hash-source"
+              link: "https://github.com/expidev"
           }
       ]
 }

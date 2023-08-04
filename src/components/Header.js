@@ -13,7 +13,7 @@ export const Header = () => {
     <header className={styles.wrapper}>
       <div className={styles.brand}>
         <img className={styles.icon} src={profile.image} alt="profile" />
-        <h1 className={styles.logo}>Portfolio</h1>
+        <h1 className={styles.logo}>Nasandratra Harivonjy</h1>
       </div>
       <img
           className={styles.toggle}

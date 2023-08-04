@@ -48,6 +48,12 @@
   color: #2c2851;
   cursor: pointer;
   list-style-type: none;
+  width: 100%;
+  padding: 0.7em;
+}
+
+.item:hover {
+  background-color: #cdcbda;
 }
 
 @media only screen and (max-width: 700px) {
@@ -65,13 +71,12 @@
     justify-content: normal;
     position: absolute;
     padding: 40px;
-    gap: 40px;
     top: 55px;
     left: 20%;
     width: calc(80% - 20px);
     font-size: 22px;
     font-weight: bold;
-    height: 100vh;
+    height: 50vh;
     border: 1px #85819f ridge;
     border-radius: 10px;
     background-color: #efeff1;

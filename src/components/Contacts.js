@@ -16,7 +16,7 @@ export const Contacts = () => {
             <a href={item.link} target="_blank" rel="noopener noreferrer" key={index}>
               <img
               src={item.icon}
-              alt="social-icon"
+              alt="social icon"
               className={styles.icon}
               />
             </a>
